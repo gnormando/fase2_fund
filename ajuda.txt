@@ -1,0 +1,14 @@
+Na página principal, há algumas fotos aleatórias de animais de estimação em carrossel.
+Há um menu de navegação superior.
+Você pode acessar o serviço e o produto destaque no próprio index, clicando em Saiba Mais.
+Você pode ver todos os serviços oferecidos no link Serviços no menu de navegação superior. Os serviços serão listados em carrossel .
+Clique em Saiba Mais para ver descrição e preço.
+Abaixo de cada serviço, há um botão Agendar que levará à página de agendamento.
+Você pode ver todos os produtos oferecidos no link Produtos no menu de navegação superior. Clique em Saiba Mais para ver a descrição e o preço do produto.
+Clique em Comprar, abaixo de cada produto, para ser levado à página de pagamento.
+Você pode cadastrar um animal de estimação novo no link Cadastrar Pet no menu de navegação superior.
+Você será levado para a uma página de cadastro que receberá as informações de seu Pet.
+Você pode ver os contatos do site no Link Contatos. Além de email e telefone, você poderá enviar 
+uma mensagem direto na caixa assunto e mensagem.
+No link Cadastro, no menu superior, você poderá fazer o cadastro de usuário com suas informações pessoais.
+Afinal, na página de login, há as caixas de texto para inserção de email e senha cadastradas.

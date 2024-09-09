@@ -1,0 +1,51 @@
+
+/* Estilos básicos para o body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o header */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Adiciona alguns efeitos ao passar por cima do link */
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Estilos específicos para o footer */
+.footer-section h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-bottom {
+    background-color: #b29f00; 
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+

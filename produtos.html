@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Gabe's Pet Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Define a altura mínima de 100% para a página e o corpo */
+        html, body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* O conteúdo principal vai crescer para ocupar o espaço disponível */
+        .container {
+            flex: 1;
+        }
+
+        /* Customização das setas pretas */
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            background-color: black;
+            width: 30px;
+            height: 30px;
+        }
+
+        /* Estiliza o rodapé para ficar no final da página */
+        footer {
+            background-color: #d3be00;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="bg-warning text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo h3">Gabe's Pet Shop</div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="servicos.html">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="pet_cadastro.html">Cadastrar Pet</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contato.html">Contato e Suporte</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="cadastro.html">Cadastro</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <br>
+
+    <!-- Carrossel de Produtos -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Produtos Disponíveis - Clique na seta para ver o próximo produto</h2>
+        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Produto 1: Ração Úmida -->
+                <div class="carousel-item active">
+                    <div class="card d-flex flex-row align-items-center p-3">
+                        <img src="fotos/racao_umida.png" class="img-fluid rounded" alt="Ração úmida para cães" style="width: 150px; height: 150px;">
+                        <div class="ms-3">
+                            <h5 class="card-title">Ração Úmida para Cães</h5>
+                            <p class="card-text">Nutrição saborosa e balanceada com ingredientes naturais para cães. Ração úmida premium.</p>
+                           
+                            <a href="racao_umida.html" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 2: Ração Seca -->
+                <div class="carousel-item">
+                    <div class="card d-flex flex-row align-items-center p-3">
+                        <img src="fotos/racao_seca.png" class="img-fluid rounded" alt="Ração seca para cães" style="width: 150px; height: 150px;">
+                        <div class="ms-3">
+                            <h5 class="card-title">Ração Seca para Cães</h5>
+                            <p class="card-text">Ração seca premium, completa e balanceada para cães de todas as idades e portes.</p>
+                         
+                            <a href="racao_seca.html" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles do Carrossel com Setas Pretas -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-warning text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-section">
+                    <h3>Gabe's Pet Shop</h3>
+                    <p>Seu pet merece o melhor. Oferecemos produtos e serviços de alta qualidade para o seu amigo de estimação!</p>
+                </div>
+                <div class="col-md-4 footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Início</a></li>
+                        <li><a href="servicos.html" class="text-white">Serviços</a></li>
+                        <li><a href="produtos.html" class="text-white">Produtos</a></li>
+                        <li><a href="contato.html" class="text-white">Contato e Suporte</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-section">
+                    <h3>Contato</h3>
+                    <p>Email: suporte@gabespets.com</p>
+                    <p>Telefone: (11) 1234-5678</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center bg-dark text-white py-2">
+            &copy; 2024 Gabe's Pet Shop | Todos os direitos reservados
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

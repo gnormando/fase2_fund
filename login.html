@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Gabe's Pet Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-warning text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo h3">Gabe's Pet Shop</div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="servicos.html">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="pet_cadastro.html">Cadastrar Pet</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contato.html">Contato e Suporte</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="cadastro.html">Cadastro</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <br>
+
+    <!-- Página de Login -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Login</h2>
+        <form>
+            <!-- E-mail -->
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+            </div>
+
+            <!-- Senha -->
+            <div class="mb-3">
+                <label for="senha" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" required>
+            </div>
+
+            <!-- Botão de Login -->
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Entrar</button>
+            </div>
+
+            <!-- Link para Cadastro -->
+            <div class="text-center mt-3">
+                <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+            </div>
+        </form>
+    </div>
+
+    <footer class="bg-warning text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-section">
+                    <h3>Gabe's Pet Shop</h3>
+                    <p>Seu pet merece o melhor. Oferecemos produtos e serviços de alta qualidade para o seu amigo de estimação!</p>
+                </div>
+                <div class="col-md-4 footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Início</a></li>
+                        <li><a href="servicos.html" class="text-white">Serviços</a></li>
+                        <li><a href="produtos.html" class="text-white">Produtos</a></li>
+                        <li><a href="contato.html" class="text-white">Contato e Suporte</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-section">
+                    <h3>Contato</h3>
+                    <p>Email: suporte@gabespets.com</p>
+                    <p>Telefone: (11) 1234-5678</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center bg-dark text-white py-2">
+            &copy; 2024 Gabe's Pet Shop | Todos os direitos reservados
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
